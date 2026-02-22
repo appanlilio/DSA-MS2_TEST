@@ -74,7 +74,7 @@ public class Main {
                     System.out.println("\n--System Shutdown--\n");
                     break;
                 default:
-                    System.out.println("Invalid option. Please choose from 1 to 6 only.");
+                    System.out.println("Invalid option. Please choose from 1 to 8 only.");
             }
         }
         while (choice != 8);
@@ -98,10 +98,6 @@ public class Main {
     // Add new Entry
     static void addItem() {
         
-        // get parameters from user
-        //System.out.print("\nEnter an ID for the item: ");
-        //int id = input.nextInt(); //numbers only for IDs
-        //input.nextLine();
         System.out.print("\nEnter the brand of the vehicle: ");
         String brnd = input.nextLine();
         System.out.print("Enter the model of the vehicle: ");
@@ -212,3 +208,4 @@ public class Main {
     }
     
 }
+
