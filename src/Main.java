@@ -74,7 +74,7 @@ public class Main {
                     System.out.println("\n--System Shutdown--\n");
                     break;
                 default:
-                    System.out.println("Invalid option. Please choose from 1 to 6 only.");
+                    System.out.println("Invalid option. Please choose from 1 to 8 only.");
             }
         }
         while (choice != 8);
@@ -212,3 +212,4 @@ public class Main {
     }
     
 }
+
