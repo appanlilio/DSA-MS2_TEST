@@ -52,11 +52,11 @@ public class Main {
                     break;
                 case 3:
                     System.out.println("\nSearching by Brand...");
-                    idSearch();
+                    brandSearch();
                     break;
                 case 4:
                     System.out.println("\nSearching by Model...");
-                    idSearch();
+                    modelSearch();
                     break;
                 case 5:
                     System.out.println("\nAdding Items...");
@@ -74,7 +74,7 @@ public class Main {
                     System.out.println("\n--System Shutdown--\n");
                     break;
                 default:
-                    System.out.println("Invalid option. Please choose from 1 to 8 only.");
+                    System.out.println("Invalid option. Please choose from 1 to 6 only.");
             }
         }
         while (choice != 8);
@@ -212,4 +212,3 @@ public class Main {
     }
     
 }
-
