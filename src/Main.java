@@ -1,6 +1,8 @@
 /**
- * @author APPanlilio
+ * DSA Group 12345 Panlilio, A., Relox, J., Militar, J.
+ * Code by Panlilio A.
 **/
+
 import model.Inventory;
 import java.util.*;
 public class Main {
